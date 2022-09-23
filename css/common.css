@@ -38,10 +38,11 @@ h1{color:cornflowerblue}
 .profile{margin-top: 20px;}
 a{text-decoration:none;color: darkblue;}
 hr{border-color: rgba(45, 46, 46, 0.116);margin: 0;}
-i{font-size: 4em; margin-left: 50px;}
 .icon{width: 100px; }
 .framework .icon{width: 150px;}
 .languages li:nth-child(1) img{width: 200px;}
 ul{display: flex;}
 ul li{margin: 10px 40px 10px 10px; list-style: none;}
 ul li div {height: 100px;}
+
+h2 a:hover {color: crimson;}
