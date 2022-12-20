@@ -42,10 +42,12 @@ hr{border-color: rgba(45, 46, 46, 0.116);margin: 0;}
 .icon{width: 100px; }
 .framework .icon{width: 150px;}
 .languages li:nth-child(1) img{width: 200px;}
-ul{display: flex;}
+.stacks ul{display: flex;}
 ul li{margin: 10px 40px 10px 10px; list-style: none;}
 ul li div {height: 100px;}
 
 h2 a:hover {color: crimson;}
 
 div p {margin: 5px;}
+
+h3:hover i{transform: translateX(-10px) ; transition: all 0.2s ease-in-out;}
