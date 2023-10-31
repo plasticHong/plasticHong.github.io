@@ -32,6 +32,7 @@ body{margin: 0;padding: 0;background-color: rgb(237, 245, 248);font-family: 'Lef
 
 .container{
     padding: 20px;
+    margin-left: 10px;
 }
 
 h1{color:cornflowerblue}
@@ -44,10 +45,13 @@ hr{border-color: rgba(45, 46, 46, 0.116);margin: 0;}
 .languages li:nth-child(1) img{width: 200px;}
 .stacks ul{display: flex;}
 ul li{margin: 10px 40px 10px 10px; list-style: none;}
-ul li div {height: 100px;}
+ul li div {height: 50px;}
 
 h2 a:hover {color: crimson;}
 
 div p {margin: 5px;}
 
 h3:hover i{transform: translateX(-10px) ; transition: all 0.2s ease-in-out;}
+
+.projects h2:hover{cursor:pointer}
+

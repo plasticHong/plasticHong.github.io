@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge; chrome=1" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge; chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PlasticHong</title>
     <link rel="stylesheet" href="css/common.css">
@@ -11,94 +11,350 @@
 </head>
 <body>
 
-<div class = "container" style = "width: 100%;">
-        <h1>plasticHong.github.io</h1>
+<div class="container" style="width: 100%;">
+    <h1>포트폴리오 페이지 입니다.</h1>
+    <hr>
+
+    <div class="projects">
+
+        <h2 >BANCHA App 백엔드 개발</h2>
+
+        <div>
+
+        <p>KH Systems 소속 Makerence 와 협업</p>
+        <p>주요 업무 : 백엔드 전담</p>
+        <p>기간 : 2023.01 ~ 2023.07</p>
+        <p>개발 인원 : 5 명</p>
         <br>
-        <hr>
+        <h3>서비스 소개</h3>
+        <p>
+            bancha는
+        </p>
+        <p>
+
+            키즈패밀리의 여가 라이프를 위한 체험 서비스를 제공하는
+        </p>
+        <p>
+
+            체험형 컨텐츠 예약 플랫폼 서비스 입니다.
+        </p>
+
+        <p><a href="https://www.bancha.kr">반차 홈페이지 바로가기</a></p>
         <br>
-        <h2>신입 백엔드 개발자 손홍훈입니다</h2>
-        <hr>
-        <div class = "profile">
-            <div>
-                <img  src="./images/photo.jpg" alt="" style="width: 300px; ;">
-                <p>손홍훈</p>
-                <p>1995.04.07 만27세</p>
-                <p>2022.11.07 java 웹 개발 국비교육과정 수료</p>
-            </div>
-            <div>
-                <!-- <h2>문제를 만나는 것은 두렵지만...</h2>
-                <p>하지만 동시에, 재미도 있습니다.</p>    
-                <p>
-                    왜냐하면 <br>그 문제에 대한 솔루션, 내가 안다고 생각했던 것들에 대한 검증(발생 원인)
-                    에 대해 배울 수 있으며
-                    <br>
-                    이어서 더 나은 방법에 대해 생각하고, 공부하며
-                    발전시켜 나갈 수 있도록 만드는 원동력이
-                    <br>
-                    되어준다 생각하기 때문입니다.
-                </p> -->
-            </div>
+
+        <h3>■ 앱 다운로드 링크</h3>
+        <p><a href="https://zrr.kr/YF28">구글플레이</a></p>
+        <p><a href="https://zrr.kr/XM9z">앱스토어</a></p>
+        <br>
+
+        <p>
+            그누보드와 cafe24를 통해 서비스 중이던 <span style="color: dodgerblue">기존 web 서비스</span>를 바탕으로,
+            <br>
+            주식회사 메이커런스의 <span style="color: dodgerblue">신규 app 서비스</span> 제작 프로젝트에
+            <br>
+            백엔드 개발자로 참여했습니다
+            <br>
+            <br>
+            rest API 작성,
+            <br>
+            swagger 를 통한 API 문서화,
+            <br>
+            데이터 베이스 모델링 등<br>
+            app 서비스의 기획 초기 부터<br>
+            스토어 제출 까지의<br>
+            백엔드 개발 프로세스를 전담했습니다
+        </p>
+        <p>
+
+        </p>
+
+
+        <br>
+
+        아래는 개발한 기능 목록입니다
+        <br>
+        <br>
+
+        <ul>회원
+            <ul>
+                <li>
+                    기존 그누보드 회원 마이그레이션
+                <li>
+                <li>
+                    spring security 사용
+                </li>
+                <li>
+                    jwt 토큰으로 관리
+                </li>
+                <li>
+                    sns 로그인 (kakao) (apple)
+                </li>
+            </ul>
+        </ul>
+
+        <ul>상품
+            <ul>
+                <li>
+                    등록, 수정, 삭제
+                <li>
+                <li>
+                    기획전 (특정 시간부터 특정 상품들이 일정 기간동안 할인되는 이벤트)
+                </li>
+                <li>
+                    공동구매 (특정 인원 달성시 체험가능한 상품)
+                </li>
+                <li>
+                    유형, 기획, 지역, 연령, 가격 등 필터링 검색
+                </li>
+            </ul>
+        </ul>
+        <ul>예약(구매, 취소)
+            <ul>
+                <li>
+                    port one (구import) 사용
+                <li>
+                <li>
+                    point 기능 (적립, 사용)
+                </li>
+            </ul>
+        </ul>
+
+        <ul>
+            sms 메시지
+        </ul>
+        <ul>
+            push 메시지 (FCM 사용)
+        </ul>
+        <ul>admin 기능
+            <ul>
+                <li>
+                    서비스 내 컨텐츠 CRUD
+                </li>
+                <li>
+                    각종 통계 자료
+                </li>
+            </ul>
+        </ul>
+
+        <ul>웹 서버 설정</ul>
+        <ul>인증서 관리</ul>
+
+        등의 작업을 하였습니다
+        <h3><a href="https://github.com/plasticHong/service-architecture/blob/master/README.md" target="_blank">
+            해당 프로젝트의 서버 아키텍쳐 다이어그램 입니다
+        </a>&nbsp;&nbsp;<i class="fa-regular fa-hand-point-left"></i></h3>
+
+        <p>
+
+        - 기술 스택 및 버전 정보 :
+            <br>
+        AWS ec2
+            <br>
+        linux (ubuntu 22.04.1 LTS)
+            <br>
+        NginX
+            <br>
+            <br>
+        SpringBoot 2.7.7
+            <br>
+        JPA
+            <br>
+        QueryDSL
+            <br>
+            <br>
+        AWS Rds
+            <br>
+        MySQL 8.8
+            <br>
+            <br>
+        AWS S3 storage
+        </p>
+        <br>
         </div>
-    
+
+        <hr>
+
+
+        <h2>서브웨이 레시피 공유 서비스</h2>
+        <h3><a href="https://sub-recipe.com" target="_blank">
+            사이트 링크 (UI 개발중)
+        </a>&nbsp;&nbsp;<i class="fa-regular fa-hand-point-left"></i></h3>
+
+        <p>
+        개인의 서브웨이 레시피를 공유하고 평가 할 수 있는 서비스 입니다
+            <br>
+        UI 개발이 완료되지 않아, 서비스 코드와 swagger docs 링크를 첨부합니다
+        </p>
+
+        <h3><a href="https://github.com/plasticHong/sub-recipe-api" target="_blank">
+            SOURCE-CODE & README (REPOSITORY)
+        </a>&nbsp;&nbsp;<i class="fa-regular fa-hand-point-left"></i></h3>
+
+        <h3><a href=https://api.sub-recipe.com/api-docs" target="_blank">
+            API DOCS (SWAGGER)
+        </a>&nbsp;&nbsp;<i class="fa-regular fa-hand-point-left"></i></h3>
+
+        <hr>
+
+        <h2>핫딜 텔레그렘 알리미</h2>
+
+        <h3><a href="https://t.me/plastic_hong" target="_blank">
+            telegram chanel
+        </a>&nbsp;&nbsp;<i class="fa-regular fa-hand-point-left"></i></h3>
+
+        <p>
+
+            *JSOUP을 이용한 웹사이트 스크래핑과
+            <br>
+            텔레그램 BOT API를 이용합니다
+            <br>
+            <br>
+
+            매 분 마다 타겟 웹 사이트에서 게시글을 확인해
+            <br>
+            새 글이 등록 될 경우
+            <br>
+            텔레그램 체널로 메시지를 발송합니다
+            <br>
+
+        </p>
+
+        <h3><a href="https://github.com/plasticHong/telegram_hot_deal_alarm" target="_blank">
+            SOURCE-CODE & README (REPOSITORY)
+        </a>&nbsp;&nbsp;<i class="fa-regular fa-hand-point-left"></i></h3>
+
+        <hr>
+
+        <h2>우아한 테크코스 <span style="color: green;">프리 코스</span> 미션 진행</h2>
+
+        <h3>1주차 온보딩</h3>
+        <p>프로그래머스 문제 레벨1~2 사이의 문제 7개 </p>
+        <br>
+
+        <h3>2~4주차 미션</h3>
+        <p>미션이 진행됨에 따라</p>
+
+        <ul>
+            <li>indent(인덴트, 들여쓰기) depth를 2까지만 허용.</li>
+            <li>3항 연산자를 쓰지 않는다.</li>
+            <li>함수(또는 메서드)가 한 가지 일만 하도록 최대한 작게 만들어라.(메소드 길이제한)15 -> 10</li>
+            <li>JUnit 5와 AssertJ를 이용하여 본인이 정리한 기능 목록이 정상 동작함을 테스트 코드로 확인한다.</li>
+            <li>else 예약어를 쓰지 않을것.</li>
+            <li>메소드 파라미터 갯수 제한 3개</li>
+            <li>enum, 제공된 클래스 활용</li>
+            <li>구현할 기능목록 작성 이후, 기능단위로 커밋 쪼개기</li>
+            <li>커밋메시지 컨벤션 준수</li>
+        </ul>
+        <br>
+        <p>등, 위의 프로그래밍 요구사항에 맞춰 <br>
+            각 미션의 기능 요구사항을 콘솔상에 구현하는 과정이었습니다</p>
+        <br>
+
+        <h3><a href="https://github.com/plasticHong/java-racingcar-6/tree/plasticHong" target="_blank">
+            (Github Repository) - 우아한 테크코스 프리과정 - 카 레이싱 게임
+        </a>&nbsp;&nbsp;<i class="fa-regular fa-hand-point-left"></i></h3>
+
+        <h3><a href="https://github.com/plasticHong/java-bridge/tree/plasticHong" target="_blank">
+            (Github Repository) - 우아한 테크코스 프리과정 - 다리 건너기 게임
+        </a>&nbsp;&nbsp;<i class="fa-regular fa-hand-point-left"></i></h3>
+
+        <h3><a href="https://github.com/plasticHong/java-lotto/tree/plasticHong" target="_blank">
+            (Github Repository) - 우아한 테크코스 프리과정 - 로또 생성 & 추첨 통계
+        </a>&nbsp;&nbsp;<i class="fa-regular fa-hand-point-left"></i></h3>
+
+        <h3><a href="https://github.com/plasticHong/java-baseball/tree/plasticHong" target="_blank">
+            (Github Repository) - 우아한 테크코스 프리과정 - 숫자 야구 게임
+        </a>&nbsp;&nbsp;<i class="fa-regular fa-hand-point-left"></i></h3>
+        <h3><a href="https://github.com/plasticHong/java-baseball-6/tree/plastichong" target="_blank">
+            (Github Repository)  - 숫자 야구 게임(2회차)
+        </a>&nbsp;&nbsp;<i class="fa-regular fa-hand-point-left"></i></h3>
+
+        <h3><a href="https://github.com/plasticHong/java-onboarding" target="_blank">
+            (Github Repository) - 우아한 테크코스 프리과정 - 온보딩 문제
+        </a>&nbsp;&nbsp;<i class="fa-regular fa-hand-point-left"></i></h3>
+        <br><br><br>
+
         <hr>
         <br>
-    
-    <div class = "stacks">
+
+
+    </div>
+
+
+    <h1>plasticHong.github.io</h1>
+
+    <div class="stacks">
         <h2>보유 기술</h2>
         <hr>
         <ol>
             <li><p>언어</p>
-                <ul class = "languages">
+                <ul class="languages">
                     <li>
                         <div>
-                            <img class = "icon" src="https://logos-world.net/wp-content/uploads/2022/07/Java-Logo.png" alt="">
-                            <p></p>
+                            <p>JAVA</p>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <img class = "icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png" alt="">
-                        </div>
-                        <p><b>jquery, ajax통신</b></p>
-                    </li>
-                </ul>
-            </li>
-            <br>
-            <li><p>프레임워크</p>
-                <p style="margin-left:40px ;"><b>템플릿 엔진 : JSP, Thymeleaf</b></p>
-                <ul class = "framework">
-                    
-                    <li>
-                        <div>
-                            <img class = "icon" src="https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg">
-                            <p></p>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <img  class = "icon" src="https://kelmass.com/wp-content/uploads/2021/08/spring-boot-logo.png" >
-                            
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <img  class = "icon" src="https://godekdls.github.io/images/springsecurity/spring-security.png" >
-                            
+                            <p>JAVASCRIPT</p>
                         </div>
                     </li>
                 </ul>
             </li>
-            <br>
+            <li><p>프레임워크 & ETC</p>
+                <ul class="framework">
+                    <li>
+                        <div>
+                            <p>SPRING BOOT</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>JPA</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>QUERY DSL</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>NGINX</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>SWAGGER</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>JSP</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>MyBatis</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>Thymeleaf</p>
+                        </div>
+                    </li>
+                </ul>
+            </li>
             <li><p>마크업</p>
                 <ul>
                     <li>
                         <div>
-                            <img class = "icon" src="https://cdn-icons-png.flaticon.com/512/888/888847.png">
+                            <p>HTML</p>
                         </div>
                     </li>
-                    <li> 
+                    <li>
                         <div>
-                            <img class = "icon" src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png">
+                            <p>CSS</p>
                         </div>
                     </li>
                 </ul>
@@ -107,160 +363,65 @@
                 <ul>
                     <li>
                         <div>
-                            <img class = "icon" src="https://images-na.ssl-images-amazon.com/images/I/41QodfboFdL.png" alt="">
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <img class = "icon" src="https://bobcares.com/wp-content/uploads/2022/06/mysql.png" alt="">
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <img class = "icon" src="https://www.devkuma.com/docs/mybatis/mybatis_logo.jpg" alt="">
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <img class = "icon" src="https://www.javatpoint.com/jpa/images/jpa-tutorial.png" alt="" style="width : 150px">
+                            <p>MY SQL</p>
                         </div>
                     </li>
                 </ul>
             </li>
-            <li><p>개발환경</p>
+            <li><p>환경</p>
                 <ul>
                     <li>
                         <div>
-                            <img class = "icon" src="https://static.vecteezy.com/system/resources/previews/006/874/225/non_2x/windows-10-icon-logo-on-white-background-free-vector.jpg" alt="">
+                            <p>LINUX (UBUNTU)</p>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <img class = "icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/1200px-IntelliJ_IDEA_Icon.svg.png" alt="">
+                            <p>AWS (EC2, RDS, S3, ROUTE53)</p>
                         </div>
                     </li>
+
                     <li>
                         <div>
-                            <img class = "icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/DataGrip.svg/2048px-DataGrip.svg.png" alt="">
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <img class = "icon" src="https://seeklogo.com/images/E/eclipse-logo-85FE4BEA34-seeklogo.com.png" alt="">
+                            <p>HTML</p>
                         </div>
                     </li>
 
                 </ul>
             </li>
-            <li><p>형상관리,협업</p>
+            <li><p>형상관리,TOOLS</p>
                 <ul>
                     <li>
                         <div>
-                            <img class = "icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAilBMVEX////wUDPwSSnvRiTwTS/4sqj5vLLvQhvyalT++Pfyb1r4uK7wSyn97Or+8vDwTC76y8T+9vXxVDf71c/yZ1DybFb2nY/82tTzc1/70Mn0hHP1jHz6zMX5w7vxWT7zemf95uLvPhf0gm/xXkT84d33pJf2mov3q5/1k4TvOQrzd2XxWD32pJr0iHiDZPiRAAAKe0lEQVR4nO1da3fqKhCVgNqoTeqrx+rV+urjtrf//+9dn1XiJMMAkwTX2R+7VpHtDMwGNtholIZ4+NwZCCE2P61leZ9aHuLmKIqU2COVg9m26v54x3YsU/ELFYm3qnvkGfNrfge0X+OqO+UT3Z4SWUSdx6q75Q9zeUtwR/GhX3XHfGHeBvgdKCZVd80PuhImuKd4F4naAsbgZSzeQRTn7XyC+ygGP6N2c8bgL8VR4InaTYsieEzUoCkWp+g5igEnagtJ0fNYDHa66fZMCAacqLCSASmOg4xinpKBEzVAAZevZGCKwSVqCy0TGYqhqZsngzKRjWJQRcOsTGQohqRucCUDUgynaJgoGTiKgSQqpUxkKIahbl4sI3igOA4hUfszUiXMUgwiilMXimGoGzeKISRqwylRgygasVsUgygafxO1mGIYifrzd0Ytpli7ujgE/uYUxbqpm7l8vv1jfEfqZreagCg6JmqNisZh677tnWJ9lsSnPRkJHc3fRdH43ZMBx6LTdFOPJfHVnoz/RK1D0dD2ZMDpximK1SdqZus+8p6oVaubmz0ZhqJRaaICW/fgWAxW3YAmBDBR3YpGZVHM2Ta8H3WTa0JY3Ym6Kdi6B6N4SFSVRpHFln8lRaPwdAlWN6so3XzNZpNNenaamlMsX90gp0vgjNp8OU0Z/eHbgrgzXnrRgOyUGsBEvULcGtEGZsmJamBCgIqGhuSZlqqlqhuj0yUsio3GyyprHK4LRUMTAjgWNSw3RIolJWqRnVIDHsU/A1qilqNuCCYEnOJ8RWFYjrrB7JQaQHWj4T2iUeRXN0QTAhrFRFB9N8wUySYEtGg8E/Uqs7qh+2SURCaH5YL6nXGqG1M75XV/frBGp9RGGRPV3E55gZxjrdIsfgeKXBv+Vj6ZAXpJbbkiN8qkbujf9Q4Kn90Ti2ZZ1A3VTnlE2kFnvv7IomEGdUO3Ux4ZvqItxx2SOD1T9K1ubOyUB4ZfTAx9qxs7O+We4RidE/obSyejz6Jha6fczTQbfKax3YTzqG7s7ZRC9P5grQ+rN2t2afJfh2xizT/bN+9pw39O3fnTkHaw9iu3M7ik6KETmKhJOg454kHdkBa8YB9m6Ge4UXRMVDslo0GiyjR5daHoVjQslYzeBfxpgWTiFEWHomGrZHTgu4o7XVNNolormWwX0IrR6H9Vkaj2SiaLdgv9sMSJot2M6lomNIrv6Mf13RLVoi46KZnbLmwge6aG2Gm6oasbNyVzizRao6XfqWhQ1Y3PFD2hrc83wMhxVDekouGsZABkNHgTmmCdKFKWxB6UzC0yDFur7u0Hl6VufCiZW2QZygii6DTdmC6J/SiZG9wwFFAUHdWN0XTjS8lkcctQSIBi/4vbrGmzdW8EgKHqQYnKrG4YysQJAMOcKLImqtXWvRlAhvBYZFQ3xiYEC8AMBZiobkWjIIp8KSpyGSqwaDCpGw4lc0EOQyH+BSjyqBuuMnFCLkMBRnGfqCqSUlq4NXOKhr8FL4x8hnDRmEg1+nlrNp/Xi97Nu5IIQHXDpGQuyGeYM6POf0vbttmhWeCgooHaKZ1RxBCsixpexo5mTTYlc0EhQ7Bo6CH9oI3HTBRZy8QJxQwVGsXGsG1v1mRUMhcUM4THog57s+acfQzugTEEi0YmilSz5mlG3fKPwT1QhqC60UE1a64P/xWPrZwCZKAMc9SNhhlN6rQ/9v/ULGMQCiOGeNFY0qKhBstdCEflhNCIIahuXIIoP3ej1+vedtGHGTAU6QZhuKXNGWrx6GIUoMGIoUTPcL5oKSfnjU4pE6kwZCjQA+M3ojH8vTHw0XsTGI1DfDvwiSa/VKfhp/sGMGGYrjGCjWRF+9hBvRgaGDfIdtSaMcRPUhOactsx3HjpvgGMGH4aMCR9qho1fkoq+BWNw3SaN2v7hxHDCXp69Ic2l+4+dUnNa1sYVYvvJcbwgxiRLVnpWcNM0zxhDNekUXVwYW/9EEBhxDCaIgSJl4iO39hbCZs0wlS1KUTU0NZ6pyVww+UcxBxmDKPiX0mKSbNGOjh9X07nIMYwYyiiwsOxD0pP1eDXpvT4UAJFU4ZFJXFLyVGlrqatfgkUDRnCT4adko2yH6F6mtEs4adoylD08syafcrZsFIZJ90j+1g0Zphn1iQdfqvBTWVlj6I5Q7H6BMTbnxGFYPQCfEWUFixAYCii73mGY/LZI41B8KoOc6JSGAolJ93LwUq8fN6QZtHBPxDBHUXWKJIY7n8GUkw/noaP22H3bdImHTyoXg7B3XfFORaJDHfoSdneQUbEje6i22Sc6obO0A5qAEwyV4k6ZqNYEkMlkAUYX9Eoh2FGyUBgE3ClMLxRMmCiMo3FMhgCSgYCU6KWwBBUMhB41A0/w8IyoYMlUdkZ5ioZkCJDFLkZqp7RGDyDQd0wMySk6BGJ99LPy1AJw0nmAu/qhpUhqmTAKPpNVNnTXxvqrjw2bqBkIPhUN2nvLXMRIn4X3k69VGpF0GfRiMZAF4a+vkFDJQNS9NQHuQZvsvRfvYxF1SNPMhf4KRoy93Te5Z3vM8hlQoePRI3yX1Lqux+ZkJQMSNE5imqzLGie/sZdpvXUegye4Tyjtgu74FgWHVP0CEd1g7329eBSM5SwLBM63NRNhGTRk0MQrZQMBBd1o76RxvsP1k4JpzKhw2FJXHBWdgLxFdprgh7G4Bn2RUOiA+UfSxuBg5IBKVpGUS2WWNOJHcOCrXs7WKobtjf3VOQxRY+w2/A3sHFZvZuIbN3bwUrdpJgDyI6hZkLwBxt1Y/B+aTwhM7Rc8OKwUDcGxu3kmzoOPSkZCPSiob7x19qoc6nnMpHpDTlR8XpINN/7VDIQyOoGd25/0lr0qmQgUBNVLZAGE9pDyc4LXgOKxChKJKfmpLWFdyUDgahu0nFxcyRFw6BkIBDVTfFlLdIVZBYlA4GmbgrF95Ly8xZMSgYCTd1E41xdk1D2MNiUjAeKeaZYNzslL2hFQ05B7UZ6uoxVyYC9I0VRQg9Dvmxc7ZS8oKmbVH4u9f9fTilvT7IrGQhEdSMXs+Hver8/nA1orvsSCj1AkaZuVLTa/Hx0u93Wfz+LNu1fy1AyEMh7N4dXkfYPIxGvnFeRokeUcxWlNCUDgdGseSHoa+veDvz3NEpVMhC4b9uUrGQg8Dr8S1cyEDgTtQIlA4HvKkqFZUIHV6JWpGQg8FxFIdopecFxFaU2KXqEf7OmhZ2SF77VTcVKBoLfolG5koHgU92otFZj8Ax/RaMWSgaCL7NmZQteHH6KRs3KhA4fiVrpgheHB7Omu52SF64zai3LhA43dcNoQvAHF3VTQyUDwV7dMJsQ/MF2SVzrMqHDrmjUVslAsFkS11jJQKCrm5JMCP5A3fCvuZKBQLQzlGdC8If+xNxIEoCSAWF8qSkIJQMhXptFMagyoSM2umAYjJIBYZCoASkZCPEao1ijrXs7YIkamJIBUUgxOCUDoShRA1QyEPITNUglAyKnLoaqZCCARaMGJgR/gNRNGq6SgRCvs79bFw3uKIIHfAyu3z5M5dri19BrjuX74mjZU6kUX3eVob94nL93BkKMpk30updH/A8xb7ymvsY7fwAAAABJRU5ErkJggg==" alt="">
+                            <p>GIT</p>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <img class = "icon" src="data:image/png;base64,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" alt="">
+                            <p>INTELLI J</p>
                         </div>
                     </li>
-
+                    <li>
+                        <div>
+                            <p>DATA GRIP</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>POST MAN</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>FIGMA</p>
+                        </div>
+                    </li>
                 </ul>
             </li>
-
-
-
         </ol>
     </div>
-    
-    <br>
-    <hr>
-    <br>
 
-    <div class = "projects">
 
-        <h1>프로젝트</h1>
-        <!-- <h2><a href="https://github.com/plasticHong/spring_board_project" target="_blank">Github Repository - spring_board_project</a>&nbsp;&nbsp;<i class="fa-regular fa-hand-point-left"></i></h2> -->
-        
-        <br>
-        
-        <h2>1.우아한 테크코스 <span style="color: green;">프리 코스</span> 미션 진행</h2>
-        
-        <h3>1주차 온보딩</h3>
-        <p>프로그래머스 문제 레벨1~2 사이의 문제 7개 </p>
-        <br>
-        
-        <h3>2~4주차 미션</h3>
-        <p>미션이 진행됨에 따라</p>
-        
-        <ul>
-        <li>indent(인덴트, 들여쓰기) depth를 2까지만 허용.</li>
-        <li>3항 연산자를 쓰지 않는다.</li>
-        <li>함수(또는 메서드)가 한 가지 일만 하도록 최대한 작게 만들어라.(메소드 길이제한)15 -> 10</li>
-        <li>JUnit 5와 AssertJ를 이용하여 본인이 정리한 기능 목록이 정상 동작함을 테스트 코드로 확인한다.</li>
-        <li>else 예약어를 쓰지 않을것.</li>
-        <li>메소드 파라미터 갯수 제한 3개</li>
-        <li>enum, 제공된 클래스 활용</li>
-        <li>구현할 기능목록 작성 이후, 기능단위로 커밋 쪼개기</li>
-        <li>커밋메시지 컨벤션 준수</li>
-    </ul>
-    <br>
-    <p>등, 위의 프로그래밍 요구사항에 맞춰 <br>
-        각 미션의 기능 요구사항을 콘솔상에 구현하는 과정이었습니다</p>
-        <br>
-        
-        
-        <h3><a href="https://github.com/plasticHong/java-bridge/tree/plasticHong" target="_blank">
-            (Github Repository) - 우아한 테크코스 프리과정 4주차 - 다리 건너기 게임
-        </a>&nbsp;&nbsp;<i class="fa-regular fa-hand-point-left"></i></h3>
-        
-        <h3><a href="https://github.com/plasticHong/java-lotto/tree/plasticHong" target="_blank">
-            (Github Repository) - 우아한 테크코스 프리과정 3주차 - 로또 생성 & 추첨 통계
-        </a>&nbsp;&nbsp;<i class="fa-regular fa-hand-point-left"></i></h3>
-        
-        <h3><a href="https://github.com/plasticHong/java-baseball/tree/plasticHong" target="_blank">
-            (Github Repository) - 우아한 테크코스 프리과정 2주차 - 숫자 야구 게임
-        </a>&nbsp;&nbsp;<i class="fa-regular fa-hand-point-left"></i></h3>
-        
-        <h3><a href="https://github.com/plasticHong/java-onboarding" target="_blank">
-            (Github Repository) - 우아한 테크코스 프리과정 1주차 - 온보딩 문제
-        </a>&nbsp;&nbsp;<i class="fa-regular fa-hand-point-left"></i></h3>
-        <br><br><br>
-        
-        <hr>
-        <br>
-
-    <h2>2.게시판 프로젝트</h2>
-    <h3><a href="https://github.com/plasticHong/spring_board_project" target="_blank">Github Repository</a>&nbsp;&nbsp;<i class="fa-regular fa-hand-point-left"></i></h3>
-    <h3><a href="http://122.46.30.213:8080/">프로젝트 링크</a>&nbsp;&nbsp;<i class="fa-regular fa-hand-point-left"></i></h3>
-    <p>관리자 id: wee<br>
-        관리자 pw: wee</p>
-    <div>
-        
-        <h2>해당 <span style="color: green;">프로젝트에서 맡은 역할</span> 입니다</h2>
-        <p>팀장</p>
-        <p>테이블 설계</p>
-        <p>관리자 페이지 데이터 시각화</p>
-        <p>회원 서비스</p>
-        <p>summerNote editor 연동</p>
-        <p>추천,쪽지 기능</p>
-        <p>view 개발 참여</p>
-        <p>게시판 페이징</p>
-        <p>소스코드 관리</p>
-    </div>
-    <br>
-    <h3>데이터 시각화(관리자 페이지)</h3>
-    <img src="./images/admin.png" style="width: 1000px;">
-    <p></p>
-    
-</div>
-    
-
-    
-    
-    
-    
-    
 </div>
 </body>
 </html>
